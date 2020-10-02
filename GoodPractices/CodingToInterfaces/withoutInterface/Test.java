@@ -4,8 +4,9 @@ class Test{
 		System.out.println("Formulas:");
 
 		Triangle triangle = new Triangle(7,3);
+		Circumference circumference = new Circumference(9);
 
 		Formula formula = new Formula();
-		formula.print(triangle);
+		formula.print(triangle,circumference);
 	}
 }
